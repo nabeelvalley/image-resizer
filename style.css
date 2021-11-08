@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  background-color: lightskyblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: salmon;
+  text-align: center;
+}
+
+#button {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 32px;
+  min-width: 60px;
+  min-height: 32px;
+  border: none;
+  color: #fff;
+  background-color: salmon;
+  transition: background-color 0.17s ease, color 0.17s ease;
+}
+
+#input {
+  display: block;
+  visibility: hidden;
+}
+
+#canvas {
+  display: block;
+  max-width: 90vw;
+  max-height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}
